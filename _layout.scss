@@ -1,0 +1,22 @@
+.header 
+{
+  width: 100%;
+  //display: block;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+  &__nav-list {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  &__nav-item {
+    padding-right: 1rem;
+  }
+}
+

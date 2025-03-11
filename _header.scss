@@ -1,0 +1,33 @@
+.header {
+  &__nav-item {
+    border-right: 1px solid black;
+  }
+  &__teaser {
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    //padding: 2rem;
+    position: relative;
+    overflow: visible;
+    min-height: 200px;
+  }
+  
+  &__teaser-image {
+    border: 1px solid rgb(169, 33, 33);
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-70%);
+    width: 45%;
+    //height: auto;
+    max-height: 120%;
+  }
+
+  &__teaser-content {
+    //position: relative;
+    z-index: 1;
+    width: 40%;
+    color: var(--text-white);
+  }
+ 
+}
