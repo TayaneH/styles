@@ -1,20 +1,9 @@
-.header 
-{
-  width: 100%;
-  display: block;
-  &__nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-  }
-  &__nav-list {
-    display: flex;
-    align-content: space-between;
-    align-items: center;
-    gap: 2rem;
-  }
-  &__nav-item {
-    border-right: 1px solid black;
-    padding-right: 1rem;
+.speakers {
+  h2 {
+    color: var(--speaker-name);
+    font-family: "museo";
+    font-weight: 300;
+    font-size: 25px;
   }
 }
+

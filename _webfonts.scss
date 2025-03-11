@@ -86,22 +86,23 @@
 /* museo */
 @font-face {
   font-family: "museo";
-  src: url("dist/style/webfonts/museo/museo300.woff2") format("woff2"),
-       url("dist/style/webfonts/museo/museo300.woff") format("woff");
+  src: url("/dist/style/webfonts/museo/museo300.woff2") format("woff2"),
+       url("/dist/style/webfonts/museo/museo300.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "museo";
-  src: url("dist/style/webfonts/museo/museo500.woff2") format("woff2"),
-       url("dist/style/webfonts/museo/museo500.woff") format("woff");
+  src: url("/dist/style/webfonts/museo/museo500.woff2") format("woff2"),
+       url("/dist/style/webfonts/museo/museo500.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "museo";
-  src: url("dist/style/webfonts/museo/museo700.woff2") format("woff2"),
-       url("dist/style/webfonts/museo/museo700.woff") format("woff");
+  src: url("/dist/style/webfonts/museo/museo700.woff2") format("woff2"),
+       url("/dist/style/webfonts/museo/museo700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -109,9 +110,8 @@
 /* maven variable */
 @font-face {
   font-family: "maven";
-  src: url("dist/style/webfonts/maven_Pro/MavenPro-VariableFont_wght.ttf") format("woff2"),
-       url("dist/style/webfonts/maven_Pro/MavenPro-VariableFont_wght.ttf") format("woff");
+  src: url("/dist/style/webfonts/maven_Pro/MavenPro-VariableFont_wght.ttf") format("truetype");
   font-weight: 400 900;
   font-style: normal;
-  font-variation-settings: "wght"400, "wght"900;
+  font-variation-settings: "wght" 400, "wght" 900;
 }
